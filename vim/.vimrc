@@ -1,7 +1,7 @@
 " Configure to use soft tabs.
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 
 " Vundle
@@ -12,7 +12,9 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
+
 Bundle 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-endwise'
 
 Plugin 'majutsushi/tagbar'
 Plugin 'Rip-Rip/clang_complete'
@@ -42,6 +44,10 @@ set listchars=eol:¬,trail:⎵,tab:¦¦,space:⸱
 set colorcolumn=110
 highlight ColorColumn ctermbg=darkgray
 set nowrap
+
+" Auto reload file when changed.
+set autoread
+au CursorHold * checktime
 
 " Themes, color scheme, fonts
 color gruvbox 
