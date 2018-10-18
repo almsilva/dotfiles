@@ -53,3 +53,4 @@ au CursorHold * checktime
 color gruvbox 
 set background=dark
 syntax on
+
