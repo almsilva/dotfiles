@@ -54,3 +54,5 @@ color gruvbox
 set background=dark
 syntax on
 
+" Default encoding
+set encoding=utf-8
