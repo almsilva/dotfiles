@@ -15,11 +15,14 @@ Plugin 'VundleVim/Vundle.vim'
 
 Bundle 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-surround'
 
 Plugin 'majutsushi/tagbar'
 Plugin 'Rip-Rip/clang_complete'
 Plugin 'tpope/vim-fugitive'
 Plugin 'octol/vim-cpp-enhanced-highlight'
+
+Plugin 'benmills/vimux'
 
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
